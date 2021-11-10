@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/MenDancersScene.unity
+    guid: 9894e1a7136ccfe4f889829ad2dcd5df
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2d23230284afa2b4eb0327ce66232aa4, type: 2}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttoncontrol : MonoBehaviour
 {
@@ -21,8 +22,8 @@ public class Buttoncontrol : MonoBehaviour
     public void OnButton_Pressed()
     {
         Debug.Log("button_1");
-        //  SceneManager.LoadScene("MenDancerScene");
+          SceneManager.LoadScene("MenDancersScene");
 
-        cube.GetComponent<Material>().color = Color.blue;
+      //  cube.GetComponent<Material>().color = Color.blue;
     }
 }
