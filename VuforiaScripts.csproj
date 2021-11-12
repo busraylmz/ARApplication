@@ -53,14 +53,14 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\BoundingBoxRenderer.cs" />
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\ARFoundationIntegration\ARFoundationInitializer.cs" />
+    <Compile Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+    <Compile Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
+    <Compile Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\BoundingBoxRenderer.cs" />
+    <Compile Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\ARFoundationIntegration\ARFoundationInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\VuforiaScripts.asmdef" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Scripts\VuforiaScripts.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -297,14 +297,8 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Editor\Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -314,6 +308,12 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Editor\Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
