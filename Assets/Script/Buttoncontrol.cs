@@ -21,10 +21,7 @@ public class Buttoncontrol : MonoBehaviour
 		Button_3.GetComponent<Button>().onClick.AddListener(OnButton_3_Click);
 	}
 
-	void TaskOnClick()
-	{
-		Debug.Log("You have clicked the button!");
-	}
+
 
 	public void OnButton_1_Click()
     {
