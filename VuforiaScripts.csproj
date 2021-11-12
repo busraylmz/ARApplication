@@ -55,9 +55,9 @@
   <ItemGroup>
     <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\ARFoundationIntegration\ARFoundationInitializer.cs" />
     <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\BoundingBoxRenderer.cs" />
     <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
+    <Compile Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\Internal\ARFoundationIntegration\ARFoundationInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\Lenovo\Downloads\com.ptc.vuforia.engine\Vuforia\Scripts\VuforiaScripts.asmdef" />
