@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenDancersScene.unity
     guid: 9894e1a7136ccfe4f889829ad2dcd5df
+  - enabled: 1
+    path: Assets/Scenes/MenandWomenDancerScene.unity
+    guid: 33ac85eb5eadc8646bf54f07efd60684
+  - enabled: 1
+    path: Assets/Scenes/WomenDancersScene.unity
+    guid: fbe38657a467a62439c62df6ba4b0e54
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2d23230284afa2b4eb0327ce66232aa4, type: 2}
